@@ -1,4 +1,4 @@
-# adminhandouts
+# Admin Handouts 
 
 These two templates along with the accompaning script can be used to generate handouts for the Splunk Administration class. 
 
@@ -13,7 +13,7 @@ The two easiest options are:
 
 ![](http://i.imgur.com/wnBWlPP.png)
 
-# running the script
+# Running the script 
 
 It's really pretty trivial. It should run with python 2 or 3. Simply:
 
