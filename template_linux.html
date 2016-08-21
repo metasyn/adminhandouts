@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Xander Johnson @metasyn">
+
+    <!-- WELCOME O DIGITAL TRAVELER
+
+    ydmmmmmddds+:/yhysooymNNmmmmNNmy//+ossysyyyysysysssysoossooo++++smms/:
+    hdmmmmmmddhy+//oyso++/smNMMMMmo+oosyyyyyyyyysyyyyyyyssyssyyssooo+smNh+
+    hdmmmmmmmmmmds+//oo++++++shmh++syyyhhhhhyyyyhyyhso/:.````.oyyoooosohNd
+    dmmmddddmmmmmmho/:/+++////:----.---::/osyhhhho/.` ```.```.shysyssssoyN
+    dd+---::/+syhdmdyo/::--..--::/:-.........-//.```-/+++:-..:yyyyyyyshhhm
+    yy.```````````:os+-...-..--:/:----...-....-`..-/shhy+:-..+yyyyysssssos
+    +s/`..-/++/-.```-:.--.----:--::----.------:--:/oyhhyo/-./yyyhyyyyyyyso
+    +ss:--:+shhs/::--.--:/:--.---::-------:-:::-.-:/+oo++/--yhhhysyyhhhhyy
+    /sso:--:+syyo/:::--:::::---.---.-::::-----------/++/:-.+hddddhhhhhhhyh
+    ++ooo:-:+ooo+::::::---:::--...----:::::----:--.-:os+:.`:shhhhhhhhhdhhh
+    oshddy/-:/+o+:---:::::::::::--:://:---:/::-::-..-:oso/.-oyyyhhdhdhhhhh
+    /:+syys:-/+ss:.-----:/:--:++/++/os/..:+o+++/:--.-:ohhyo/+oyhhhdddddddd
+    s+/+sss:-/sds:---:+o++/:.-ohyo/+oso::/+/+s+:.....-/shhyyyssyyyhdmmmmmm
+    o:.:oss+:ohdo---::+syooo+sss+/-.--:ohysoso-```..-:+syhyyhhyyhhhhddmmmm
+    o:.-/oso+ymdo:-----:ossyyhs-.``````-/osyhhs:..``.-/syhhydmdhyhhhhddmNN
+    s:-:/+ssshmms+:....:sddhs:..`.-:-`````-+hNNmo-.`.-/oyhhdmNmmhyhdddmmNN
+    +--++/+syhdmdo:..-:yNNNh+-``.+yhyo-```.:ymmmd+----/shddNNNNNmhhhmmmNNN
+    -.:oo+/oyssdds:--:/hNMMms-..oNNNNNm:.../ydNNdo///shmmmNNNNNNNmdhmNNNMM
+    --+ooo++o//ydho/+++ymNmdy/-:+dNMMmy+//oyhddddddmmNNNNMMMMMMNNNmddNNMMM
+    -:/+ooo++//ohdmddhdddhhdmhhydmNNNmmmmddhdmmmmMMNNMMMMMMMMMMMNNNmdmNMMM
+    /++++//+//:/smNNNNNddmmmmNNmmNNmdmdddmsymNNMNdNMMMMMMMMMMMMMMNNNmmNMMM
+    ooooo++/:/oyhmMMMNNMMMMNMMMNddmysyysyyyNMMMMNNMMMMMMMMMMMMMMNNNNmmmNMM
+    ooooooo+///oymNMNNMMMMMMMMMMMmhddmmNNmMMMMMMMMMMMMMMMMMMMMMMMMMNNNmNMM
+    /oo+++++/++syhNMNMMMMMMMMMMMMMMNMMMMMMMMMMNMMMMMMMMMMMMMMMMMMNNNNmmNMM
+    /+/////+oosyydNMMNMMMMMMMMMMMMMMMMMNNNNMMMNNNMMMMMMMMMMMMMMMMMMNmmmNNM
+    ///+oyhyso++ohNMMMMMMMMMMMMMMMMMMMMNdyhmNMMNmMMMMMMMMMMMMMMMMMNmhhdmNM
+    ooosyhyo++//oyNMMMMMMMMMMMMMMMMMMMMNh/-:hNMMMMMMMMMMMMMMMMMMMNyooyhdNN
+    +++++osoo+//+smNMMMMMMMMMMMMMMMMMMMMM+::+hmNMMMMMMMMMMMMMMMNhs//+syhmm
+    /+/++so+oo///+osmMMMMMMMMMMMMMMMMMMMMs:::+oyhmNNNNMMMMMMMMNys+::/syydm
+    /oosso++++/////:omMMMMMMMMMMMMMMMMMMdy+::/yssyhdmNNNNNNNNMNs+o/::oysyd
+    oysooooo+o+///+//odNMMMMMMMMMMMMMMNhysy+:+yssyddmmmmNNNNNMNh::/::+yssh
+    +++ooooo+++///++::+ydNMMMMMMMMMNmmyo++s+.:sssyhdmmmmNNNNNNNmy+::-/sosh
+
+    May you be very aware that this document was made in haste by an amateur.
+    I don't take any responsibility for anything. The song comes from omfgdogs.com
+
+    Best,
+      Xander
+
+    -->
+
+    <!--LOAD TYPEFACE / FONT-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <!--LOAD CSS-->
+    <style>
+      body {
+        width: 1250px;
+        margin-left: 150px;
+        font-family: 'Roboto',sans-serif;
+        padding: 1em;
+        color: #555;
+        height: 1200px;
+        background-color: #EFF;
+      }
+
+      h1,h2,strong {
+        color: #333;
+      }
+
+      .audio {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+      }
+
+      .box {
+        margin: 10px;
+        width: 400px;
+        height: 200px;
+        border-radius: 20px;
+        position: relative;
+      }
+
+      .twobox {
+        margin: 10px;
+        width: 820px;
+        height: 200px;
+        border-radius: 20px;
+        position: relative;
+      }
+
+      .noclick {
+        pointer-events: none;
+      }
+
+
+      .lightBlue {
+        background-color: rgba(170,222,239,0.5);
+      }
+
+      .lightGreen {
+        background-color: rgba(128,201,165,0.5);
+      }
+
+      .lightOrange {
+        background-color: rgba(212,129,84,0.5);
+      }
+
+      .orange {
+        background-color: rgba(255,129,84);
+      }
+
+      .black {
+        background-color: #000;
+      }
+
+      .white {
+        background-color: #FFF;
+      }
+
+      .smallBox {
+        width: 100px;
+        height: 50px;
+        border-radius: 2px;
+        text-align: center;
+        position: inherit;
+        left: 150px;
+      }
+
+      .smallBox p {
+        position: relative;
+        color: #999;
+        top: 15px;
+      }
+
+      .centered {
+        text-align: center;
+      }
+
+      .box svg {
+        position: relative;
+        left: 250px;
+        top: -25px;
+        z-index: 10;
+        float: left;
+        overflow: visible;
+      }
+
+      table {
+        width: 100%;
+      }
+
+      .row {
+        display: inline-flex;
+        justify-content: center;
+      }
+
+      .details {
+        width: 100%;
+        margin: 10px;
+        position: relative;
+      }
+
+      .legend .smallBox {
+        margin: 0px;
+        left: 0px;
+        width: 100%;
+        position: relative;
+        text-align: center;
+      }
+
+      .legend .smallBox p {
+        margin: 0px;
+        color: black;
+      }
+
+      table {
+        border-collapse: collapse;
+        position: relative;
+      }
+
+      tr:nth-child(even) {
+        background-color: #ddd;
+      }
+
+      tr:nth-child(odd) {
+        background-color: #FFF;
+      }
+
+      td {
+        padding: 2px;
+      }
+
+      /*******************/
+      /*       SVG       */
+      /*******************/
+      .normal {
+        stroke-dasharray: 20;
+        animation: dash 10s linear;
+        animation-direction: reverse;
+        animation-iteration-count: infinite;
+      }
+
+      .ldapease {
+        stroke-dasharray: 100 20 20 20 20 20 20 20;
+        animation: dash 10s linear;
+        animation-direction: reverse;
+        animation-iteration-count: infinite;
+      }
+
+      .slow {
+        stroke-dasharray: 50 25;
+        animation: dash 20s linear;
+        animation-direction: reverse;
+        animation-iteration-count: infinite;
+      }
+
+      .small {
+        stroke-dasharray: 10;
+        animation: dash 20s linear;
+        animation-direction: normal;
+        animation-iteration-count: infinite;
+      }
+
+      @keyframes dash {
+        to {
+          stroke-dashoffset: 1000;
+        }
+      }
+
+      /*******************/
+      /*  CONNECTIONS    */
+      /*******************/
+      .http {
+        display: block;
+      }
+
+      .ssh {
+        display: none;
+      }
+
+      .data {
+        display: none;
+      }
+
+      .management {
+        display: none;
+      }
+
+      .ldap {
+        display: none;
+      }
+
+      .traffic {
+        display: none;
+      }
+
+      /*******************/
+      /*  TOGGLER        */
+      /*******************/
+      /* The switch - the box around the slider */
+      .switch {
+        position: relative;
+        display: inline-block;
+        width: 60px;
+        height: 30px;
+        margin: 10px;
+      }
+
+      /* Hide default HTML checkbox */
+      .switch input {
+        display: none;
+      }
+
+      /* The slider */
+      .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        -webkit-transition: .4s;
+        transition: .4s;
+      }
+
+      .slider:before {
+        position: absolute;
+        content: "";
+        height: 22px;
+        width: 22px;
+        left: 4px;
+        bottom: 4px;
+        background-color: #fff;
+        -webkit-transition: .4s;
+        transition: .4s;
+      }
+
+      input:checked + .slider {
+        background-color: #2196F3;
+      }
+
+      input:focus + .slider {
+        box-shadow: 0 0 1px #2196F3;
+      }
+
+      input:checked + .slider:before {
+        -webkit-transform: translateX(30px);
+        -ms-transform: translateX(30px);
+        transform: translateX(30px);
+      }
+
+      /* Rounded sliders */
+      .slider.round {
+        border-radius: 34px;
+      }
+
+      .slider.round:before {
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+
+    <center>
+      <h2>USER-NAME, User ID: USER-ID</h2>
+    </center>
+
+    <div class="row">
+      <div class="box lightGreen">
+        <p class="centered">local computer</p>
+
+        <div class="smallBox black">
+          <p>
+            Browser
+          </p>
+        </div>
+
+        <svg width="400" height="5" xmlns="http://www.w3.org/2000/svg" >
+        <path
+            class="slow http"
+            stroke-width="8"
+            fill="none"
+            stroke="#73ba57"
+            d="M 0 0 H 320">
+        </path>
+
+        <div class="smallBox white">
+          <p>
+            SSH
+          </p>
+        </div>
+        <svg width="400" height="5" xmlns="http://www.w3.org/2000/svg" >
+        <path
+            class="normal ssh"
+            stroke-width="4"
+            fill="none"
+            stroke="#42a7b0"
+            d="M 0 0 H 320">
+        </path>
+      </div>
+      <div class="box lightBlue">
+        <p class="centered">indexer: HOST-EIP / 10.0.0.2USER-ID</p>
+        <div class="smallBox black">
+          <p>
+            Splunk Web
+          </p>
+        </div>
+        <svg width="400" height="20" xmlns="http://www.w3.org/2000/svg" >
+        <path
+            class="slow management"
+            stroke-width="8"
+            fill="none"
+            stroke="#000"
+            d="M 0 0 H 320">
+        </path>
+        <svg width="400" height="20" xmlns="http://www.w3.org/2000/svg" >
+        <path
+            class="small data"
+            stroke-width="4"
+            fill="none"
+            stroke="#e34f4f"
+            d="M 0 10 H 320">
+        </path>
+        <svg width="400" height="600" xmlns="http://www.w3.org/2000/svg" >
+        <path
+            class="slow management"
+            stroke-width="8"
+            fill="none"
+            stroke="#000"
+            d="M -2 20 L 322 220">
+        </path>
+        <svg width="400" height="600" xmlns="http://www.w3.org/2000/svg" >
+        <path
+            class="small data"
+            stroke-width="4"
+            fill="none"
+            stroke="#e34f4f"
+            d="M 0 10 L 320 200">
+        </path>
+        <div class="smallBox white">
+          <p>
+            SSH
+          </p>
+        </div>
+        <svg width="400" height="5" xmlns="http://www.w3.org/2000/svg" >
+        <path
+            class="normal ssh"
+            stroke-width="4"
+            fill="none"
+            stroke="#42a7b0"
+            d="M 0 0 H 320">
+        </path>
+        <svg width="400" height="5" xmlns="http://www.w3.org/2000/svg" >
+        <path
+            class="normal ssh"
+            stroke-width="4"
+            fill="none"
+            stroke="#42a7b0"
+            d="M 2 0 L 320 200">
+        </path>
+      </div>
+      <div class="box lightBlue">
+        <p class="centered">forwarder: 10.0.0.50</p>
+        <div class="smallBox black">
+          <p>
+            Splunkd
+          </p>
+        </div>
+        <div class="smallBox white">
+          <p>
+            SSH
+          </p>
+        </div>
+      </div>
+    </div> <!-- END OF ROW 1 -->
+    <div class="row"=>
+      <div class="box">
+        <h2>Lab Connection Info</h2>
+        <table>
+          <tr>
+            <td>OS: {username}</td>
+            <td>USER-NAME</td>
+          </tr>
+          <tr>
+            <td>OS: {password}</td>
+            <td>OS-PASSW</td>
+          </tr>
+          <tr>
+            <td>{host-eip}</td>
+            <td>HOST-EIP</td>
+          </tr>
+            <td>{host-ip}</td>
+            <td>HOST-IIP</td>
+          </tr>
+          <tr>
+            <td>{splunk-user}</td>
+            <td>SPLK-NAME</td>
+          </tr>
+          <tr>
+            <td>{splunk-password}</td>
+            <td>SPLK-PASSW</td>
+          </tr>
+        </table>
+      </div>
+      <div class="box lightOrange">
+        <p class="centered">Lab Support Server</p>
+
+        <div class="smallBox black">
+          <p>
+            Search Peer
+          </p>
+        </div>
+
+        <svg width="400" height="5" xmlns="http://www.w3.org/2000/svg" >
+        <path
+            class="slow management"
+            stroke-width="8"
+            fill="none"
+            stroke="#000"
+            d="M -100 -200
+               A 90 45, 90, 0, 0, -100 0">
+        </path>
+
+        <div class="smallBox white">
+          <p>
+            LDAP
+          </p>
+        </div>
+
+        <svg width="400" height="5" xmlns="http://www.w3.org/2000/svg" >
+        <path
+            class="ldapease ldap"
+            stroke-width="4"
+            fill="none"
+            stroke="#569cdc"
+            d="M -100 -280
+               A 90 45, 90 ,0, 0, -100 0">
+        </path>
+      </div>
+      <div class="box lightBlue">
+        <p class="centered">forwarder: 10.0.0.100</p>
+        <div class="smallBox black">
+          <p>
+            Splunkd
+          </p>
+        </div>
+        <div class="smallBox white">
+          <p>
+            SSH
+          </p>
+        </div>
+      </div>
+    </div> <!-- END OF ROW TWO -->
+
+    <div class="row">
+      <div class="twobox">
+        <h2> Connection Legend </h2>
+        <div class="legendTable">
+          <table>
+            <tr>
+              <th>Toggle</th>
+              <th>color</th>
+              <th>connection</th>
+              <th>usage</th>
+            </tr>
+            <tr>
+              <td>
+                <label class="switch">
+                  <input checked type="checkbox" onclick="toggle_visibility('http')">
+                  <div class="slider round"></div>
+                </label>
+              </td>
+              <td>
+                <svg width="90" height="40" xmlns="http://www.w3.org/2000/svg" >
+                <path
+                    class="slow"
+                    stroke-width="4"
+                    fill="none"
+                    stroke="#73ba57"
+                    d="M 0 20 H 80">
+                </path>
+              </td>
+              <td>Basic HTTP web connection.</td>
+              <td>Go to HOST-EIP:8000 in your web browser.</td>
+            </tr>
+            <tr>
+              <td>
+                <label class="switch">
+                  <input  type="checkbox" onclick="toggle_visibility('ssh')">
+                  <div class="slider round"></div>
+                </label>
+              </td>
+              <td>
+                <svg width="90" height="40" xmlns="http://www.w3.org/2000/svg" >
+                <path
+                    class="normal"
+                    stroke-width="4"
+                    fill="none"
+                    stroke="#42a7b0"
+                    d="M 0 20 H 80">
+                </path>
+              </td>
+              <td>SSH Connection</td>
+              <td>
+                ssh USER-NAME@HOST-EIP <br>
+                ssh USER-NAME@10.0.0.2USER-ID <br>
+                ssh USER-NAME@10.0.0.50 <br>
+                ssh USER-NAME@10.0.0.100
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label class="switch">
+                  <input  type="checkbox" onclick="toggle_visibility('management')">
+                  <div class="slider round"></div>
+                </label>
+              </td>
+              <td>
+                <svg width="90" height="40" xmlns="http://www.w3.org/2000/svg" >
+                <path
+                    class="slow"
+                    stroke-width="4"
+                    fill="none"
+                    stroke="#000"
+                    d="M 0 20 H 80">
+                </path>
+              </td>
+              <td>Splunk Management over TCP</td>
+              <td>Various uses, e.g. splunk set deploy-poll HOST-EIP:8089</td>
+            </tr>
+            <tr>
+              <td>
+                <label class="switch">
+                  <input  type="checkbox" onclick="toggle_visibility('data')">
+                  <div class="slider round"></div>
+                </label>
+              </td>
+              <td>
+                <svg width="90" height="40" xmlns="http://www.w3.org/2000/svg" >
+                <path
+                    class="small"
+                    stroke-width="3"
+                    fill="none"
+                    stroke="#e34f4f"
+                    d="M 0 20 H 80">
+                </path>
+              </td>
+              <td>Data inputs over TCP</td>
+              <td>Send data to HOST-EIP:9997</td>
+            </tr>
+            <tr>
+              <td>
+                <label class="switch">
+                  <input  type="checkbox" onclick="toggle_visibility('traffic')">
+                  <div class="slider round"></div>
+                </label>
+              </td>
+              <td>
+                <svg width="90" height="40" xmlns="http://www.w3.org/2000/svg" >
+                <path
+                    class="small"
+                    stroke-width="4"
+                    fill="none"
+                    stroke="#d48154"
+                    d="M 0 20 H 80">
+                </path>
+              </td>
+              <td>TCP Traffic Data</td>
+              <td>Listen for traffic on port 90USER-ID </td>
+            </tr>
+            <tr>
+              <td>
+                <label class="switch">
+                  <input type="checkbox" onclick="toggle_visibility('ldap')">
+                  <div class="slider round"></div>
+                </label>
+              </td>
+              <td>
+                <svg width="90" height="40" xmlns="http://www.w3.org/2000/svg" >
+                <path
+                    class="ldapease"
+                    stroke-width="4"
+                    fill="none"
+                    stroke="#569cdc"
+                    d="M 0 20 H 80">
+                </path>
+              </td>
+              <td>LDAP Authentication</td>
+              <td>Used in Authetication lab - port 389</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="box lightOrange">
+        <p class="centered">Traffic Generator: 10.0.0.200<p>
+        <div class="smallBox white">
+          <p>
+            Data
+          </p>
+        </div>
+        <svg width="400" height="5" xmlns="http://www.w3.org/2000/svg" >
+        <path
+            class="small traffic"
+            stroke-width="4"
+            fill="none"
+            stroke="#d48154"
+            d="M 0 -220
+               A 10 8, 90, 1, 1, 0 0">
+        </path>
+      </div>
+    </div><!-- END OF ROW THREE -->
+
+    <div class="row">
+      <div class="twobox noclick"></div>
+      <div class="box white legend">
+        <p class="centered">Color Legend</p>
+        <div class="smallBox lightGreen">
+          <p>
+            Your Laptop
+          </p>
+        </div>
+        <div class="smallBox lightBlue">
+          <p>
+            Lab Server
+          </p>
+        </div>
+        <div class="smallBox lightOrange">
+          <p>
+            Support Server
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+  </body>
+
+  <div class="audio">
+    <audio controls>
+      <source src="http://metasyn.pw/omfgdogs.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+        Watch it <a href="https://www.youtube.com/watch?v=-43CP5bxffI">here</a> instead.
+    </audio>
+  </div>
+
+  <!-- This small function is all we need for the toggler's to work -->
+
+  <script type="text/javascript">
+  function toggle_visibility(aClass) {
+    // Get class
+    var e = document.getElementsByClassName(aClass)
+    for (var i = 0; i < e.length; i++) {
+      // catch empty
+      if (e[i].style.display == '') {
+        e[i].style.display = 'none';
+      }
+      // flip it
+      if (e[i].style.display == 'block') {
+        e[i].style.display = 'none';
+      } else {
+        e[i].style.display = 'block';
+      }
+    }
+  }
+
+  // Toggle HTTP to being
+  toggle_visibility('http')
+
+  </script>
+</html>
